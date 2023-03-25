@@ -35,11 +35,11 @@ public class ZonePiegee : MonoBehaviour
     //Zone de déclenchement pour le piège
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && !_estActive)
+        if (other.gameObject.tag == "Player" && _estActive)
         {
             foreach (var rb in _ListeRb)
             {
-                Debug.Log("Activer le piege !!!");
+                //Debug.Log("Activer le piege !!!");
                 rb.useGravity = true;
                 rb.AddForce(Vector3.down * _intensiteForce);
             }
