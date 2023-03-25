@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AllerRetourZ : MonoBehaviour
+public class AllerRetourZNegatif : MonoBehaviour
 {
     //Attributs
     //Mettre un serializeField pour la vitesse de déplacement
@@ -24,7 +24,7 @@ public class AllerRetourZ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pointArrivee = pointDepart + new Vector3(0, 0, -11);
+        pointArrivee = pointDepart + new Vector3(0, 0, 14);
         float temps = Mathf.PingPong(Time.time * vitesseDeplacement, 1);
         transform.position = Vector3.Lerp(pointDepart, pointArrivee, temps);
     }
