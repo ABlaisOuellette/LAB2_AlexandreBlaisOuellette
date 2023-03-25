@@ -2205,7 +2205,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1001 &226373145
 PrefabInstance:
@@ -2469,7 +2469,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1001 &244729314
 PrefabInstance:
@@ -3184,7 +3184,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &316845342 stripped
 GameObject:
@@ -5551,7 +5551,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &619270875
 GameObject:
@@ -8368,7 +8368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973316958}
   m_LocalRotation: {x: -0.20582794, y: 0.0018863978, z: 0.006052426, w: -0.97856766}
-  m_LocalPosition: {x: 46.949387, y: 2.2542958, z: -47.745174}
+  m_LocalPosition: {x: 47.163673, y: 5.0660625, z: -50.163372}
   m_LocalScale: {x: 1, y: 1.0085001, z: 1.1706003}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9474,7 +9474,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &1110921921 stripped
 GameObject:
@@ -10564,7 +10564,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &1191168105 stripped
 GameObject:
@@ -13256,7 +13256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: -0.15130551, y: -0.12612353, z: 0.41241902}
+  m_TrackedObjectOffset: {x: -0.020016268, y: 1.8661892, z: -0.16451223}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -13266,7 +13266,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 3.3276708
+  m_CameraDistance: 5.362012
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -17841,7 +17841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081601974}
   m_LocalRotation: {x: -0.20582794, y: 0.0018863978, z: 0.006052426, w: -0.97856766}
-  m_LocalPosition: {x: 46.949387, y: 2.2542958, z: -47.745174}
+  m_LocalPosition: {x: 47.163673, y: 5.0660625, z: -50.163372}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
